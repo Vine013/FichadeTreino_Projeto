@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=3, initial-scale=1.0">
+    <link rel="stylesheet" href="./Style/Acessar.css">
+    <title>Acesse Já! Para montar seu treino</title>
+</head>
+<body>
+    <main class="container">
+        <div>
+            <h1>Quer ficar grandão?</h1>
+            <h5>Informe seus dados para montar um treino</h5>
+        </div>
+
+        <br>
+
+        <center>
+        <form id="formulario">
+            <div class="campoFormulario">
+                <label for="nome" class="campos">Nome</label>
+                <input type="text" name="nome" id="nome" required>
+            </div> 
+            
+            <div class="campoFormulario">
+                <label for="email" class="campos">Email</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            
+            <fieldset class="selecionaveis">
+                <div class="campoFormulario">
+                    <label for="nick">Apelido</label>
+                    <input type="text" name="nick" id="nick" required>
+                </div> 
+
+                <div class="campoFormulario">
+                    <label for="sexo" class="sex">Sexo:</label>
+                    <input type="radio" id="masculino" name="sexo" value="masculino" required>
+                    <label for="masculino" class="sex">Masculino</label>
+                    <input type="radio" id="feminino" name="sexo" value="feminino" required>
+                    <label for="feminino" class="sex">Feminino</label>
+                </div>
+            </fieldset>
+            
+            <div class="campoFormulario">
+                <input type="checkbox" name="Termos" id="termos" required>
+                <label id="campoAceite" for="termos">Aceitar os termos e condições</label>
+            </div>
+
+            <div class="botao">
+                <button type="submit" onclick="salvar()">Cadastrar</button>
+            </div>
+        </form>
+        </center>
+    </main>
+
+    <script src="./Script/Acessar.js"></script>
+
+</body>
+</html>

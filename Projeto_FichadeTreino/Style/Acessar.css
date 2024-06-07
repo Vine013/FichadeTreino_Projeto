@@ -1,0 +1,135 @@
+/* TODOS OS CAMPOS*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* TITULOS - CABEÇALHO */
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-shadow: 3px 3px 3px #000000;
+    font-size: 60px;
+    color: #0047ff;
+}
+
+h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    text-shadow: 3px 3px 3px #666666;
+    font-size: 30px;
+    padding-bottom: 20px;
+    color: #FFFFFF;
+
+}
+
+/* CORPO DA PÁGINA */
+body{
+    background-color: #0047ff;
+    background-image: url(https://images.unsplash.com/photo-1571902943202-507ec2618e8f?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z3ltJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* CORPO DO FORMS */
+input, button{
+    border-radius: 5px ;
+}
+
+.campoFormulario{
+    margin-bottom: 15px;
+}
+
+.campoFormulario > label{
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: left;
+    padding-right: 10px;
+    color: #FFFFFF;
+}
+
+.campoFormulario > input[type="text"], .campoFormulario > input[type="email"]{
+    padding: 5px;
+    width: 26rem;
+    height: 1rem;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+    font-size: 20px;
+}
+
+.campos{
+    font-size: 25px;
+}
+
+.campoFormulario > input:focus{
+    background-color: #e9f2ff;
+}
+
+#campoAceite{
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#termos{
+    padding: 20px;
+}
+
+/* SELECIONÁVEIS DO FORMS */
+.selecionaveis{
+    font-size: 10px;
+    display: flex;
+    padding-left: 60px;
+    border: 0;
+}
+
+.selecionaveis > .campoFormulario{
+    margin-top: 30px;
+}
+
+fieldset > div > label{
+    font-size: 20px;
+}
+
+.sex{
+    margin-right: 7px;
+}
+
+#masculino, #feminino{
+    margin: 7px;
+}
+
+#nick{
+    width: 10rem;
+    margin-bottom: 20px;
+    margin-right: 60px;
+}
+
+/* FORMATO CADASTRO */
+.container{
+    border: 1px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #252525;
+    opacity: 92%;
+}
+
+/* BOTÃO */
+.botao > button{
+    font-size:23px;
+    padding: 5px;
+    background-color: #4682B4;
+    color: #FFFFFF;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
+.botao > button:hover{
+    background-color: #b0c4de;
+    text-shadow: none;
+}

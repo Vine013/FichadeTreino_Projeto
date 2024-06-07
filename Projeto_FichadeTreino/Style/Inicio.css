@@ -1,0 +1,151 @@
+/*Todos os itens da página*/
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*Body*/
+body{
+    font-family: "Rubik", sans-serif;
+    background: linear-gradient(0deg, #121212, #121212), #F1F1F1;
+    color: #F1F1F1;
+}
+
+/* MAIN */
+main{
+    display: flex; 
+    flex-wrap: wrap;
+    height: 100vh;
+    }
+
+
+/*Menu*/
+.sideMenu{
+    width: 12%;
+    padding: 30px;
+    height: 28.2em;
+}
+
+.sideMenu > img{
+    margin-bottom: 50px;
+    width: 100px;
+}
+
+.listaLinks > li{
+    margin-bottom: 60px;
+}
+
+.listaLinks > li > a{
+    color: #F1F1F1;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #646464 ;
+
+}
+
+
+/*CABEÇALHO*/
+.cabecalho{
+    background-image: url(../Imagens/headerr.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100%;
+    position: relative;
+    padding: 20px 80px;
+    border-bottom: 2px solid #f1f1f1 ;
+}
+
+header > div > h1{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+}
+
+h3{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+/*CORPO DA PÁGINA*/
+.corpo{
+    background-color: #191919;
+    width: 88%;
+    height: 93%;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cartao{
+    border: 2px solid;
+    width: 300px;
+    height: 200px;
+    margin: 5px;
+    margin-inline: 25px;
+    background: #5271FF;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.cartao:hover {
+    transform: scale(1.2);
+}
+
+.foto{
+    margin-top: 10px;
+    width: 200px;
+    height: 120px;
+    border-radius: 30%;
+    background-color: white;
+    overflow: hidden;
+}
+
+.imagem{
+    width: 100%;
+    height: 100%;
+}
+
+.informacoes{
+    padding-top: 20px;
+    color: white;
+    font-family: impact;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #121212;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+/*Rodapé*/
+.rodape{
+    width: 100%;
+    height: 7%;
+    background-color: #5271FF;
+
+}
+
+.rodape > p{
+    text-indent: 20px;
+    padding-top: 12px;
+    font-size: 15px;
+    text-shadow: 2px 2px 2px #646464;
+}

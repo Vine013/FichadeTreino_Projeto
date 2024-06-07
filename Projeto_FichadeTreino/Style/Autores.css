@@ -1,0 +1,62 @@
+body, div, p, header,h1, a, table
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    font-family: "Rubik", sans-serif;
+    background: linear-gradient(0deg, #121212, #121212), #F1F1F1;
+    color: #F1F1F1;
+}
+
+/*Cabeçalho*/
+.cabecalho{
+    font-weight: 5000;
+    font-size: 25px;
+    background-image: url(../Imagens/headerr.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 110px;
+    width: 100%px;
+    position: relative;
+}
+
+.titulo{
+    padding-top: 20px;
+    text-align: center;
+}
+
+/*Retorno Home*/
+.home{
+    text-align: center;
+    background-color: #000000;
+    padding: 5px;
+}
+
+.home > a{
+    color: #F1F1F1;
+    font-size: 20px;
+}
+
+/*Tabela Criadores*/
+.criadores{
+    margin-top: 40px;
+}
+
+.fotos{
+    height: 200px;
+    padding: 40px;
+}
+
+.autor{
+    color: #F1F1F1;
+    text-align: center;
+    font-size: 15px;
+}
